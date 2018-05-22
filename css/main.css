@@ -330,7 +330,7 @@ ul li {
   position: relative;
   visibility: hidden; }
   .work .overlay {
-    background: rgba(232, 69, 69, 0.9);
+    background: rgba(130, 64, 22, 0.9);
     height: 100%;
     left: 0;
     opacity: 0;
@@ -350,22 +350,23 @@ ul li {
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%); }
-  .work h5, .work p, .work img {
+  .work h2, .work p, .work img {
     -moz-transition: all, 0.5s;
     -o-transition: all, 0.5s;
     -webkit-transition: all, 0.5s;
     transition: all, 0.5s; }
-  .work h5, .work p {
+  .work h2, .work p {
     color: #fff;
     margin: 0;
     opacity: 0; }
-  .work h5 {
+  .work h2 {
     margin-bottom: 5px;
     -moz-transform: translate3d(0, -200%, 0);
     -ms-transform: translate3d(0, -200%, 0);
     -webkit-transform: translate3d(0, -200%, 0);
     transform: translate3d(0, -200%, 0); }
   .work p {
+    font-size: 1.5em;
     -moz-transform: translate3d(0, 200%, 0);
     -ms-transform: translate3d(0, 200%, 0);
     -webkit-transform: translate3d(0, 200%, 0);
@@ -378,7 +379,7 @@ ul li {
   transform: scale(1.2); }
 .work-box:hover .overlay {
   opacity: 1; }
-  .work-box:hover .overlay h5, .work-box:hover .overlay p {
+  .work-box:hover .overlay h2, .work-box:hover .overlay p {
     opacity: 1;
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
