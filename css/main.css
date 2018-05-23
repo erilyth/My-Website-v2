@@ -330,7 +330,7 @@ ul li {
   position: relative;
   visibility: hidden; }
   .work .overlay {
-    background: rgba(130, 64, 22, 0.9);
+    background: rgba(175, 45, 45, 0.9);
     height: 100%;
     left: 0;
     opacity: 0;
@@ -395,7 +395,7 @@ ul li {
 }
 
 /* ==========================================================================
-	$Teams
+	$projects
 ========================================================================== */
 .person {
   max-width: 270px; }
@@ -912,3 +912,26 @@ ul li {
 
 .icon-dribbble:before {
   content: "\e063"; }
+
+.subheading_main {
+   overflow: hidden;
+   text-align: center;
+  }
+.subheading_main:before,
+.subheading_main:after {
+ background-color: rgba(175, 45, 45, 0.9);
+ content: "";
+ display: inline-block;
+ height: 2px;
+ position: relative;
+ vertical-align: 1.5em;
+ width: 13em;
+}
+.subheading_main:before {
+ right: -3em;
+ margin-left: -20%;
+}
+.subheading_main:after {
+ left: -3em;
+ margin-right: -20%;
+}
