@@ -156,6 +156,7 @@ ul li {
   height: 44px;
   overflow: hidden;
   position: fixed;
+  margin-top: -1em;
   right: 5%;
   text-indent: 100%;
   top: 32px;
