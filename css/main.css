@@ -17,6 +17,10 @@
   font-family: Ciscopic;
   src: url(../fonts/Ciscopic.ttf);
 }
+@font-face {
+  font-family: DPDorkDiary;
+  src: url(../fonts/DPDorkDiary.ttf);
+}
 
 /* ==========================================================================
 Typography
@@ -24,6 +28,7 @@ Typography
 p {
   font-size: 14px;
   line-height: 22.4px;
+  font-family: DPDorkDiary;
   color: #6c7279; }
 
 h1 {
@@ -82,7 +87,7 @@ a:hover, a:focus {
 
 body {
   font-family: "Ciscopic", sans-serif;
-  font-weight: 400;
+  font-weight: 100;
   color: #6c7279; }
 
 ul, ol {
@@ -398,17 +403,54 @@ ul li {
 /* ==========================================================================
 	$projects
 ========================================================================== */
+.role {
+  color: rgba(175, 45, 45, 0.9);
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.row-eq-height > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-eq-height-width {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.row-eq-height-width > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
 .person {
   margin-bottom: 4em;
 }
 .person img {
   margin-left: auto;
 	margin-right: auto;
+  max-width: 80%;
+  max-height: 350px;
 	display: block;
 }
   .person-content {
     text-align: center;
     margin-top: 20px; }
+  .person-content p {
+    font-size: 1.5em;
+    line-height: 1.3em;
+  }
   .person h4 {
     font-weight: 400; }
   .person h5 {
@@ -480,7 +522,7 @@ ul li {
   text-align: center; }
   .footer-top {
     background-color: #3a3e64;
-    padding-top: 50px; }
+    padding-top: 20px; }
   .footer-bottom {
     background-color: #313454;
     padding: 20px 0; }
